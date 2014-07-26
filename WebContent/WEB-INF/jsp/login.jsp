@@ -11,7 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<spring:message code="login.label.pagetitle" text="title" />
 <form:form action="login" method="post"
 commandName="loginBackingBean">
 <form:input path="userLogin.username" />

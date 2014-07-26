@@ -17,7 +17,7 @@
 </style>
 </head>
 <body>
-
+<spring:message code="login.label.pagetitle" text="title" />
 <form:form action="login2" method="post"
 commandName="arbitaryBeanName">
 <form:errors path ="*" cssClass="error" element="div "/>
